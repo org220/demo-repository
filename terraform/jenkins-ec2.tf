@@ -1,5 +1,5 @@
 resource "aws_instance" "jenkins_server" {
-  ami           = "ami-0e86e20dae9224db8"
+  ami           = "ami-0f9de6e2d2f067fca"
   instance_type = "t2.micro"
 
   vpc_security_group_ids = [aws_security_group.allow_all_from_my_ip.id]
